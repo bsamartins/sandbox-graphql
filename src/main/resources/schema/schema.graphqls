@@ -1,0 +1,11 @@
+type Query {
+    employees: [Employee]
+}
+
+type Employee {
+    id: Int
+    name: String
+    role: String
+    salary: Float
+    manager: Employee
+}

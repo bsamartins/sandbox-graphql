@@ -13,7 +13,10 @@ repositories {
 
 dependencies {
     implementation(platform("org.springframework.boot:spring-boot-dependencies:2.5.6"))
+    implementation(platform("com.netflix.graphql.dgs:graphql-dgs-platform-dependencies:latest.release"))
 
     implementation(kotlin("stdlib"))
     implementation("org.springframework.boot:spring-boot-starter-web")
+
+    implementation("com.netflix.graphql.dgs:graphql-dgs-spring-boot-starter")
 }
